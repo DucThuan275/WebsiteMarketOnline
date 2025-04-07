@@ -84,11 +84,15 @@ Dự án này là hệ thống **chợ online** cho phép người dùng mua bá
 ### Cấu Trúc Thư Mục
 
 
-src/ ├── assets/ # Hình ảnh, biểu tượng, logo ├── components/ # Các component dùng chung (Navbar, Footer, Sidebar...) ├── pages/ # Các trang chính (Home, ProductDetail, Cart, AdminDashboard...) ├── services/ # Giao tiếp API bằng axios (ProductService, UserService...) ├── layouts/ # Các layout chính (AdminLayout, MainLayout...) ├── routes/ # Định tuyến cho toàn bộ ứng dụng ├── utils/ # Các hàm tiện ích như format ngày, tính giá... ├── App.js # Component gốc └── index.js # Điểm khởi tạo ReactDOM
-
-markdown
-Sao chép
-Chỉnh sửa
+src/    ├── assets/ # Hình ảnh, biểu tượng, logo 
+        ├── components/ # Các component dùng chung (Navbar, Footer, Sidebar...) 
+        ├── pages/ # Các trang chính (Home, ProductDetail, Cart, AdminDashboard...) 
+        ├── services/ # Giao tiếp API bằng axios (ProductService, UserService...) 
+        ├── layouts/ # Các layout chính (AdminLayout, MainLayout...) 
+        ├── routes/ # Định tuyến cho toàn bộ ứng dụng 
+        ├── utils/ # Các hàm tiện ích như format ngày, tính giá... 
+        ├── App.js # Component gốc 
+        └── index.js # Điểm khởi tạo ReactDOM
 
 ## Công Nghệ Sử Dụng
 
